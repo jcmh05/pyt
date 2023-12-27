@@ -1,10 +1,10 @@
 # PYT Media Downloader
-![Logo](images/pytLogo.png)
 PYT is a project created as a training tool to download video or audio from various platforms. 
-## Screenshots??
+![Logo](images/pytLogo.png)
+## Screenshots
 ![Screenshot](images/cap.png)
 
-## Guidelines and Responsibilities??
+## Guidelines and Responsibilities
 It is essential that users understand the restrictions and responsibilities when using this application. Make sure to read and accept the terms of service of YouTube and various platforms before downloading any content. Here are some key points to keep in mind when using this application:
 
 **Copyright:** Downloading copyrighted videos without proper authorization is illegal. Only download content for which you have the appropriate rights or that is in the public domain.
@@ -21,7 +21,7 @@ It is essential that users understand the restrictions and responsibilities when
 
 Remember, the goal is to promote responsible and ethical use of the application, always respecting copyright and policies.
 
-## Directrices y Responsabilidades??
+## Directrices y Responsabilidades
 Es esencial que los usuarios comprendan las restricciones y responsabilidades al utilizar esta aplicación. Asegúrate de leer y aceptar los términos de servicio de YouTube y las distintas plataformas antes de descargar cualquier contenido. Aquí hay algunos puntos clave que debes tener en cuenta al usar esta aplicación:
 
 **Derechos de Autor:** Descargar videos protegidos por derechos de autor sin la debida autorización es ilegal. Solo descarga contenido para el cual tengas los derechos adecuados o que esté en el dominio público.
