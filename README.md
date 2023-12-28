@@ -1,6 +1,6 @@
 # PYT Media Downloader
 PYT is a project created as a training tool to download video or audio from various platforms. 
-![Logo](images/pytLogo.png)
+![Logo](images/pytLogo2.png)
 ## Screenshots
 ![Screenshot](images/cap.png)
 
