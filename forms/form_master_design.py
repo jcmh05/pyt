@@ -5,6 +5,7 @@ import util.util_windows as util_windows
 import util.util_images as util_img
 from forms.form_info import FormInfoDesign
 from forms.form_yt import FormYTDesign
+from forms.form_tiktok import FormTikTokDesign
 
 class FormMasterDesign(tk.Tk):
     
@@ -45,14 +46,17 @@ class FormMasterDesign(tk.Tk):
 
         # Botones
         self.buttonYT = tk.Button(self.menu_lateral)
+        self.buttonTikTok = tk.Button(self.menu_lateral)
         self.buttonInfo = tk.Button(self.menu_lateral)
 
         # Imágenes para los botones
         img_youtube = util_img.read_image("./images/youtube.png", (20, 20))
+        img_tiktok = util_img.read_image("./images/tiktok.png",(20, 20))
         img_info = util_img.read_image("./images/info.png", (20, 20))
 
         buttons_info = [
-            ("Youtube", img_youtube, self.buttonYT, self.open_panel_yt),
+            ("YouTube", img_youtube, self.buttonYT, self.open_panel_yt),
+            ("TikTok", img_tiktok, self.buttonTikTok, self.open_panel_tiktok),
             ("Info", img_info, self.buttonInfo, self.open_panel_info),
         ]
 
@@ -100,3 +104,7 @@ class FormMasterDesign(tk.Tk):
     def open_panel_yt(self):   
         self.clear_panel(self.main_body)     
         FormYTDesign(self.main_body) 
+
+    def open_panel_tiktok(self):   
+        self.clear_panel(self.main_body)     
+        FormTikTokDesign(self.main_body) 

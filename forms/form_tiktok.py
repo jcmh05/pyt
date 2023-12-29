@@ -17,14 +17,14 @@ import os
 #
 #
 
-class FormYTDesign():
+class FormTikTokDesign():
     def __init__(self, panel_principal):
         self.panel_principal = panel_principal # Guardamos referencia al panel principal
 
         # Panel Titulo
         self.barra_superior = tk.Frame( panel_principal, bg=COLOR_CUERPO_PRINCIPAL)
         self.barra_superior.pack(side=tk.TOP, fill=tk.X, expand=False) 
-        self.youtubeLogo = util_img.read_image("./images/youtubeLogo.png",(200,50))
+        self.youtubeLogo = util_img.read_image("./images/tiktokLogo.png",(200,60))
         
         self.labelLogo = tk.Label(self.barra_superior, image=self.youtubeLogo, bg=COLOR_CUERPO_PRINCIPAL)
         self.labelLogo.pack(side=tk.TOP, padx=20, pady=20)
